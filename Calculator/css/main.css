@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    color: white;
+    font-weight: bold;
+}
+
+main {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: stretch;
+    justify-content: flex-start;
+}
+main > div {
+    width: 23%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.screen-div {
+    height: 155px;
+    display: inline-flex;
+    flex-direction: column;
+}
+.screen-text {
+    width: 100%;
+    overflow: auto;
+    padding: 12% 2% 1% 0;
+    box-sizing: border-box;
+    text-align: right;
+    font: 2em Verdana, Helvetica, Arial bold;
+}
+.prev-text {
+    width: 100%;
+    font: 1em Verdana, Helvetica, Arial bold;
+    text-align: left;
+    padding-left: 5%;
+    padding-top: 5%;
+    box-sizing: border-box;
+    overflow: hidden;
+    color: yellow;
+
+}
+div > button {
+    height: 80px;
+    width: 25%;
+    background-color: darkgrey;
+    border: 1px solid black;
+    cursor: pointer;
+}
+div:first-child + div > button:first-child {
+    flex-grow: 2;
+}
+
+button:hover {background-color: black}
+.oper {background-color: rgba(237,164,76,1);}
+
+div:nth-child(6n) > button:first-child {flex-grow: 3.27;}
