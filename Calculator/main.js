@@ -56,7 +56,7 @@ for (let i = 0; i < numPressed.length; i++) {
     let toPrint = numPressed[i];
     toPrint.addEventListener('click', function() {
         if (toPrint.value != "<-" && toPrint.value != "C") {
-            if (!Number(toPrint.value) && toPrint.value != "=") {
+            if (!Number(toPrint.value) && Number(toPrint.value) != "0" && toPrint.value != "=") {
                 if (currentOperator != "") {
                     handleMath(currentOperator);
                     textDiv.innerText += toPrint.value;
@@ -84,6 +84,7 @@ for (let i = 0; i < numPressed.length; i++) {
             prevText.innerText = "";
             buffer0 = "";
             bufferS = "";
+            currentOperator = "";
             storedResult = "";
         } else if (toPrint.value == "<-") {
             textDiv.innerText = "";
@@ -92,4 +93,3 @@ for (let i = 0; i < numPressed.length; i++) {
 
     })
 }
- // TODO: 0-errors and repeated blocks
