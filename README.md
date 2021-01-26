@@ -5,3 +5,18 @@
 - **[`Newspaper`](Newspaper/):  Front page of a newspaper.**
 - **[`Calculator`](Calculator/): My version of a calculator.**
 - **[`Compliments & Insults`](https://github.com/juliospau/practicas-docker/compliments-insults): Get random compliments or insults**
+
+## Resultados
+### Newspaper
+
+![Resultado-1 Newspaper](Newspaper/resultado_1.png)
+![Resultado-2 Newspaper](Newspaper/resultado_2.png)
+
+### Calculator
+
+![Resultado Calculator](Calculator/resultado.png)
+
+### Compliments and Insults
+
+![Resultado C&I](https://github.com/juliospau/practicas-docker/compliments-insults/resultado.png)
+
