@@ -4,4 +4,4 @@
 
 - **[`Newspaper`](Newspaper/):  Front page of a newspaper.**
 - **[`Calculator`](Calculator/): My version of a calculator.**
-- **[`Compliments & Insults`](Compliments-Insults/): Get random compliments or insults**
+- **[`Compliments & Insults`](https://github.com/juliospau/practicas-docker/compliments-insults): Get random compliments or insults**
